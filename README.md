@@ -1,2 +1,4 @@
 # compoundInterestCalc
-Vanilla JS compound interest calculator
+Simple compound interest calculator using Vanilla JavaScript, HTML and CSS.  
+
+link to use: (TBA)
