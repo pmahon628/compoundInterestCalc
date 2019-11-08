@@ -7,42 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-<body>
-    <div id="interest-calculator"></div>
-    <h1>Compound Interest Calculator</h1>
-    <h2>Start amount in $</h2>
-    <input
-        type="range"
-        min="0"
-        max="1000"
-        value="100"
-        setup="50"
-        class="slider"
-        />
-        <div id="interest-calculator"></div>
-    <div class="slider__output amount">amount</div>
-    <h2>Interest in %</h2>
-    <input
-        type="range"
-        min="0"
-        max="100"
-        value="1"
-        setup="1"
-        class="slider"
-        />
-     <div id="interest-calculator"></div>
-     <div class="slider__output interest">0</div>
-    <h2>Saving Years</h2>
-    <input
-        type="range"
-        min="1"
-        max="65"
-        value="1"
-        class="slider"
-        />
-    <div class="slider__output years">0</div>
-    <div class="slider__total output"></div>
-</div>
+
+    <body>
+        <div class="interest-calculator">
+          <h1>Compound Interest Calculator</h1>
+          <h2>Start amount in $</h2>
+          <input
+            type="range"
+            min="0"
+            max="10000"
+            value="100"
+            step="50"
+            class="slider"
+          />
+          <div class="slider__output amount">amount</div>
+          <h2>Interest in %</h2>
+          <input 
+            type="range" 
+            min="0" max="100" 
+             value="1" 
+             class="slider" />
+          <div class="slider__output interest">0</div>
+          <h2>Saving years</h2>
+          <input 
+              type="range" 
+               min="1" 
+               max="50" 
+               value="1" 
+               class="slider" />
+          <div class="slider__output years">0</div>
+          <div class="slider__total output"></div>
+        </div>
+      </body>
+    
 
 </body>
 

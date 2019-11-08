@@ -9,7 +9,7 @@ console.log(100 * Math.pow(1.1, 2))
 
 function calculateAmount(){
     const total = 
-    amount.innerHTML * Math.pow(1 + interest.innerHTML / 100, years.innerHTML)
+    amount.innerHTML * Math.pow(1 + interest.innerHTML / 100, year.innerHTML)
     output.innerHTML = "$" + Math.round(total);
 }
 
